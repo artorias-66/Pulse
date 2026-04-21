@@ -1,0 +1,41 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+# NOTE: pubspec.lock is intentionally NOT ignored — needed for reproducible Vercel builds
+
+# Vercel Flutter install artifacts (downloaded during CI, not part of source)
+flutter/
+flutter.tar.xz
+
+# Android
+android/local.properties
+android/.gradle/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/Pods/
+
+# Analysis
+analysis_output.txt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.*
